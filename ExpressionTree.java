@@ -1,8 +1,6 @@
 
 public class ExpressionTree{
-
-
-
+  
   /*return the expression as an infix notation string with parenthesis*/
   /* The sample tree would be: "(3 + (2 * 10))"     */
   public String toString(){
@@ -121,7 +119,6 @@ public class ExpressionTree{
     System.out.println(c.toStringPostfix());
     System.out.println(c.toStringPrefix());
     System.out.println(c.evaluate());//6.0
-
 
     ExpressionTree d = new ExpressionTree('*',c,new ExpressionTree(3.5));
     System.out.println(d);
